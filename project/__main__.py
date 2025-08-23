@@ -1,4 +1,7 @@
-def main():
+"""Entry point for the application."""
+
+
+def main() -> None:
     print("Hello from python-project-template!")
 
 
