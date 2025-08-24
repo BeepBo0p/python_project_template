@@ -1,4 +1,4 @@
-# Python Project Template
+# Henrik's Simple Python Project Template
 
 A barebones modern Python project template. This repository serves as a starting point for new Python projects, providing a well-structured foundation with modern tooling and best practices, which can easily be tailored to project-specific needs.
 
@@ -78,7 +78,7 @@ python -m start
 
 3. Set up pre-commit hooks (optional but recommended):
    ```bash
-   uv run pre-commit install
+   uvx pre-commit install
    ```
 
 ### Adding Dependencies
@@ -124,7 +124,7 @@ uvx pre-commit run --all-files
 ## 🤝 Contributing
 
 This template is designed to be a starting point. Feel free to:
-- Fork and customize for your organization
+- Fork and customize for your application
 - Submit issues and improvements
 - Share your experience using this template
 
