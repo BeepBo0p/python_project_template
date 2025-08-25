@@ -16,9 +16,10 @@ This template is designed to be used as a GitHub template repository. Click "Use
 ## 📁 Project Structure
 
 ```
-├── project/                   # Main package directory
-│   ├── __init__.py            # Package initialization
-│   └── __main__.py            # Entry point for CLI execution
+├── src/                       # Source code directory
+│   └── package/               # Main package directory
+│       ├── __init__.py        # Package initialization
+│       └── __main__.py        # Entry point for CLI execution
 ├── pyproject.toml             # Project configuration and dependencies
 ├── uv.lock                    # Dependency lock file (managed by uv)
 ├── .pre-commit-config.yaml    # Pre-commit hooks configuration
